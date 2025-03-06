@@ -1,0 +1,108 @@
+/*<style id="color-themes" speed="0.8" ease="power1.out" percent-from-top="40" min-width="0"> */
+
+[element-theme="1"] {
+  /* Light Mode */
+  --color--heading: var(--light-mode--heading);
+  --color--text: var(--light-mode--text);
+  --color--background: var(--light-mode--background);
+  --color--button: var(--light-mode--button);
+  --color--button-text: var(--light-mode--button-text);
+  --color--button-secondary: var(--light-mode--button-secondary);
+  --color--button-hover: var(--light-mode--button-hover);
+  --color--input: var(--light-mode--input);
+  --color--link: var(--light-mode--link);
+  --color--link-hover: var(--light-mode--link-hover);
+  --color--border: var(--light-mode--border);
+  --color--border-alpha: var(--light-mode--border-alpha);
+  --color--card: var(--light-mode--card);
+  --color--highlight-text: var(--light-mode--highlight-text);
+  --color--highlight-bg: var(--light-mode--highlight-bg);
+  --color--callout: var(--light-mode--callout);
+  --color--nav: var(--light-mode--nav);
+  --color--nav-link: var(--light-mode--nav-link);
+  --color--nav-link-hover: var(--light-mode--nav-link-hover);
+  --color--nav-link-active: var(--light-mode--nav-link-active);
+  --color--tooltip: var(--light-mode--tooltip);
+  --color--tooltip-text: var(--light-mode--tooltip-text);
+  --color--focus: var(--light-mode--focus);
+  --color--accent: var(--light-mode--accent);
+  --color--overlay: var(--light-mode--overlay);
+}
+
+[element-theme="2"] {
+  /* Dark Mode */
+  --color--heading: var(--dark-mode--heading);
+  --color--text: var(--dark-mode--text);
+  --color--background: var(--dark-mode--background);
+  --color--button: var(--dark-mode--button);
+  --color--button-text: var(--dark-mode--button-text);
+  --color--button-secondary: var(--dark-mode--button-secondary);
+  --color--button-hover: var(--dark-mode--button-hover);
+  --color--input: var(--dark-mode--input);
+  --color--link: var(--dark-mode--link);
+  --color--link-hover: var(--dark-mode--link-hover);
+  --color--border: var(--dark-mode--border);
+  --color--border-alpha: var(--dark-mode--border-alpha);
+  --color--card: var(--dark-mode--card);
+  --color--highlight-text: var(--dark-mode--highlight-text);
+  --color--highlight-bg: var(--dark-mode--highlight-bg);
+  --color--callout: var(--dark-mode--callout);
+  --color--nav: var(--dark-mode--nav);
+  --color--nav-link: var(--dark-mode--nav-link);
+  --color--nav-link-hover: var(--dark-mode--nav-link-hover);
+  --color--nav-link-active: var(--dark-mode--nav-link-active);
+  --color--tooltip: var(--dark-mode--tooltip);
+  --color--tooltip-text: var(--dark-mode--tooltip-text);
+  --color--focus: var(--dark-mode--focus);
+  --color--accent: var(--dark-mode--accent);
+  --color--overlay: var(--dark-mode--overlay);
+}
+
+[element-theme="3"] {
+  /* Alt Mode */
+  --color--heading: var(--alt-mode--heading);
+  --color--text: var(--alt-mode--text);
+  --color--background: var(--alt-mode--background);
+  --color--button: var(--alt-mode--button);
+  --color--button-text: var(--alt-mode--button-text);
+  --color--button-secondary: var(--alt-mode--button-secondary);
+  --color--button-hover: var(--alt-mode--button-hover);
+  --color--input: var(--alt-mode--input);
+  --color--link: var(--alt-mode--link);
+  --color--link-hover: var(--alt-mode--link-hover);
+  --color--border: var(--alt-mode--border);
+  --color--border-alpha: var(--alt-mode--border-alpha);
+  --color--card: var(--alt-mode--card);
+  --color--highlight-text: var(--alt-mode--highlight-text);
+  --color--highlight-bg: var(--alt-mode--highlight-bg);
+  --color--callout: var(--alt-mode--callout);
+  --color--nav: var(--alt-mode--nav);
+  --color--nav-link: var(--alt-mode--nav-link);
+  --color--nav-link-hover: var(--alt-mode--nav-link-hover);
+  --color--nav-link-active: var(--alt-mode--nav-link-active);
+  --color--tooltip: var(--alt-mode--tooltip);
+  --color--tooltip-text: var(--alt-mode--tooltip-text);
+  --color--focus: var(--alt-mode--focus);
+  --color--accent: var(--alt-mode--accent);
+  --color--overlay: var(--alt-mode--overlay);
+}
+
+::-moz-selection {
+  color: var(--color--background);
+  background: var(--color--text);
+}
+::selection {
+  color: var(--color--background);
+  background: var(--color--text);
+}
+
+/* Style for all Tippy tooltips */
+.tippy-box {
+  background-color: var(--color--tooltip);
+  color: var(--color--tooltip-text);
+}
+
+/* Style for the Tippy arrow */
+.tippy-arrow {
+  color: var(--color--tooltip);
+}
